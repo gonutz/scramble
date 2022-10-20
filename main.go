@@ -20,10 +20,10 @@ func main() {
 
 	words := strings.Split(text, " ")
 	for i := range words {
-		word := []byte(words[i])
+		word := []rune(words[i])
 		var start, end int
 		for i := range word {
-			if unicode.IsLetter(rune(word[i])) {
+			if unicode.IsLetter(word[i]) {
 				start = i
 				break
 			}
@@ -43,7 +43,7 @@ func main() {
 	auto.SetClipboardText(strings.Join(words, " "))
 }
 
-func shuffle(b []byte) {
+func shuffle(b []rune) {
 	n := len(b)
 	for i := 0; i < n-1; i++ {
 		j := i + rand.Intn(n-i)
