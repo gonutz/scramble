@@ -1,0 +1,4 @@
+github.com/gonutz/auto v1.3.0 h1:B9Txz1/WW6yVKxRzKI5JBFZo25buveRSeo7VxMzc+XE=
+github.com/gonutz/auto v1.3.0/go.mod h1:z6b7QMW54PMsLIORkFjm2SixvkPf1CHDqHXowjmP5/0=
+github.com/gonutz/w32/v2 v2.5.0 h1:jrVn1waNTiYzbbbJIu8+CCl87t6LkTvRTJ5wAe5wwPg=
+github.com/gonutz/w32/v2 v2.5.0/go.mod h1:MgtHx0AScDVNKyB+kjyPder4xIi3XAcHS6LDDU2DmdE=
